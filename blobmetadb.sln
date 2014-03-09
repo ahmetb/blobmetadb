@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blobmetadb.Lib", "blobmetadb.Lib\blobmetadb.Lib.csproj", "{B33DFA39-981F-4AD0-96B1-0D25EC6B54EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blobmetadb.Lib.Test", "blobmetadb.Lib.Test\blobmetadb.Lib.Test.csproj", "{CEA0F00A-F072-4CA3-B482-30654D2EA80D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blobmetadb.Store", "blobmetadb.Store\blobmetadb.Store.csproj", "{E553F1DA-26AE-487A-AB30-9C99578B4A0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blobmetadb.Store.Test", "blobmetadb.Store.Test\blobmetadb.Store.Test.csproj", "{B8C2622B-CFB5-4D45-83D8-F2768F271080}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B33DFA39-981F-4AD0-96B1-0D25EC6B54EF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B33DFA39-981F-4AD0-96B1-0D25EC6B54EF}.Debug|x86.Build.0 = Debug|Any CPU
+		{B33DFA39-981F-4AD0-96B1-0D25EC6B54EF}.Release|x86.ActiveCfg = Release|Any CPU
+		{B33DFA39-981F-4AD0-96B1-0D25EC6B54EF}.Release|x86.Build.0 = Release|Any CPU
+		{B8C2622B-CFB5-4D45-83D8-F2768F271080}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B8C2622B-CFB5-4D45-83D8-F2768F271080}.Debug|x86.Build.0 = Debug|Any CPU
+		{B8C2622B-CFB5-4D45-83D8-F2768F271080}.Release|x86.ActiveCfg = Release|Any CPU
+		{B8C2622B-CFB5-4D45-83D8-F2768F271080}.Release|x86.Build.0 = Release|Any CPU
+		{CEA0F00A-F072-4CA3-B482-30654D2EA80D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CEA0F00A-F072-4CA3-B482-30654D2EA80D}.Debug|x86.Build.0 = Debug|Any CPU
+		{CEA0F00A-F072-4CA3-B482-30654D2EA80D}.Release|x86.ActiveCfg = Release|Any CPU
+		{CEA0F00A-F072-4CA3-B482-30654D2EA80D}.Release|x86.Build.0 = Release|Any CPU
+		{E553F1DA-26AE-487A-AB30-9C99578B4A0B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E553F1DA-26AE-487A-AB30-9C99578B4A0B}.Debug|x86.Build.0 = Debug|Any CPU
+		{E553F1DA-26AE-487A-AB30-9C99578B4A0B}.Release|x86.ActiveCfg = Release|Any CPU
+		{E553F1DA-26AE-487A-AB30-9C99578B4A0B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = blobmetadb.Lib\blobmetadb.Lib.csproj
+	EndGlobalSection
+EndGlobal
