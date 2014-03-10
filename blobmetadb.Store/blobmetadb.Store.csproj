@@ -8,7 +8,7 @@
     <ProjectGuid>{E553F1DA-26AE-487A-AB30-9C99578B4A0B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>Blobmetadb.Store.Redis</RootNamespace>
-    <AssemblyName>blobmetadb.Store.Redis</AssemblyName>
+    <AssemblyName>BlobMetaDb.Store.Redis</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
