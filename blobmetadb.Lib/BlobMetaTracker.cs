@@ -19,13 +19,11 @@ namespace BlobMetaDb.Lib
 		private string accountName { get; set; }
 
 		private DiscoveryMode discoveryMode { get; set; }
-		// TODO hardcoded values for now
+		// TODO hardcoded parameters regarding batch import for now
 		internal const int containerListImportBatchSize = 100;
 		internal const int blobListImportBatchSize = 2000;
-		internal const int containerParallelBatchSize = 3;
-		internal const int blobParallelBatchSize = 30;
 
-		public BlobMetaTracker (DiscoveryMode discoveryMode, IBlobStorageMetadataStore store, CloudStorageAccount account, bool useHttps = true)
+		public BlobMetaTracker (IBlobStorageMetadataStore store, DiscoveryMode discoveryMode, CloudStorageAccount account, bool useHttps = true)
 		{
 			if (store == null)
 				throw new ArgumentNullException ("store");
@@ -141,4 +139,3 @@ namespace BlobMetaDb.Lib
 		#endregion
 	}
 }
-
