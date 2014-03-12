@@ -109,7 +109,7 @@ More info on [wiki](https://github.com/ahmetalpbalkan/blobmetadb/wiki/_pages):
 
 ### Few cool facts
 
-* It is a **fully asyncronous** library.
+* It is a **fully asynchronous** library.
 * It's distributed on **NuGet**.
 * It will not keep in sync with your storage account by itself, you need to use this everywhere in your code to keep local database up to date.
 * It is inspired by Nathan Cahill's [mimicdb](https://github.com/nathancahill/mimicdb).
