@@ -99,6 +99,14 @@ If you're already using Azure Storage Service for a while, when you initialize `
 
 It does not intercept calls you explicitly make to blob storage service (e.g. `container.ListBlobs()` or `blob.Exists()`). You need to make calls to BlobMetaTracker class directly (e.g. `blobTracker.ListBlobs(container)` or `blobTracker.BlobExists(container, blob)`).
 
+### Wiki
+
+More info on [wiki](https://github.com/ahmetalpbalkan/blobmetadb/wiki/_pages):
+
+* [How it works](https://github.com/ahmetalpbalkan/blobmetadb/wiki/How-it-works)
+* [Discover Modes](https://github.com/ahmetalpbalkan/blobmetadb/wiki/Discovery-Modes)
+* [List of tracked Blob Service Requests](https://github.com/ahmetalpbalkan/blobmetadb/wiki/Table-of-interpreted-Blob-Service-Requests)
+
 ### Few cool facts
 
 * It is a **fully asyncronous** library.
